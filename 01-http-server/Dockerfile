@@ -5,7 +5,7 @@ WORKDIR /usr/src
 # create an empty Cargo project
 RUN USER=root cargo new app
 
-# change working direction to the project
+# change working directory to the project
 WORKDIR /usr/src/app
 
 COPY Cargo.toml .

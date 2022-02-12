@@ -1,3 +1,9 @@
+// An HTTP Server
+// This contains
+// - String interpolation/concat
+// - Timestamp
+// - Basic HTTP server
+
 use std::io::{Read, Write};
 use std::net::{TcpListener, TcpStream};
 use std::thread;
